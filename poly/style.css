@@ -1,0 +1,157 @@
+/* Wrapper */
+		.page-navigator{
+			list-style-type: none;
+			height: 25px;
+			width: 180px;
+			max-width: 180px;
+			text-align: center;
+			margin: 0px auto;
+		}
+		.page-navigator li{
+			/*display: inline;*/
+			float: left;
+			position: relative;
+			width: 30px;
+			height: 25px;
+			/*background-color: orange;*/
+			border: 1px solid #FFF;
+			margin-left: 1px;
+			border-radius: 2px;
+			margin-top: 3px;
+		}
+		.next{
+			border: 1px solid #FFF;
+			padding: 2px 8px 2px 8px;
+			border-radius: 3px;
+		}
+		.prev{
+			border: 1px solid #FFF;
+			padding: 2px 8px 2px 8px;
+			border-radius: 3px;
+		}
+		.date_li{
+			max-width: 800px;
+			/* height: 30px; */
+			margin: 5px auto;
+			padding-left: 50px;
+			margin-top: 5px;
+			background-color: #FAFAFA;
+			transition: background-color 0.5s;
+			box-shadow: 1px 1px 2px #EAEAEA;
+			border-radius: 3px;
+			list-style-type: none;
+		}
+		.date_li:hover{
+			background-color: #F0F0F0;
+			box-shadow: 1px 1px 5px #EAEAEA;
+		}
+		#page_footer{
+			/*background-color: #FFF;*/
+			margin-top: 10px;
+			padding-bottom: 30px;
+		}
+		#tags_post{
+			margin-bottom: 10px;
+		}
+		#tags_post a{
+			padding: 0px 10px;
+			background-color: #CECECE;
+			color: #FFF;
+			border-radius: 23px;
+		}
+		#prev_next{
+			border-radius: 3px;
+			background-color: #FBFBFB;
+			margin-bottom: 30px;
+		}
+		#thenext{
+			float: right;
+		}
+		#sub_btn{
+			margin-top: -30px;
+			margin-bottom: 50px;
+		}
+		.comment-content p{
+			margin: 0px 0px 10px 0px;
+		}
+		.comment-reply a{
+			float: right;
+			margin-right: 50px;
+			margin-top: -35px;
+		}
+		.comment-list{
+			list-style-type: none;
+			padding-left: 2em;
+		}
+		.comment-list li{
+			padding-left: 0px;
+		}
+
+		.avatar{
+			border-radius: 50%;
+			width: 35px;
+			height: auto;
+			float: left;
+		}
+		.logo_pic{
+			border-radius: 50%;
+		}
+		.fn{
+			/*background-color: pink;*/
+			margin-left: 10px;
+		}
+		#comments h3{
+			padding-top: 20px;
+		}
+		.commentTime{
+			/*background-color: pink;*/
+			margin-left: 10px;
+		}
+		.respond input{
+			
+			float: left;
+			width: 33%;
+		}
+		.kami-form-control{
+			border: none;
+			border-radius: 0px;
+		}
+		.respond{
+			border-radius: 5px;
+			box-shadow: 1px 1px 10px #EFEFEF;
+		}
+		#response{
+			text-align: center;
+		}
+		#misubmit{
+			float: right;
+			margin-top: 0px;
+			/*width: 32px;*/
+		}
+		#cancel-comment-reply-link{
+			float: left;
+			height: 2.75em;
+			line-height: 2.75em;
+			margin-top:  0px;
+			color: #62B7E8;
+		}
+		#comments{
+			padding-bottom: 3em;
+		}
+		.error-page{
+			margin-top: 3em;
+		}
+		.post-title{
+			text-align: center;
+		}
+		.error-page p{
+			text-align: center;
+		}
+		.content_p{
+			width: 100%;
+		}
+        .content_p img{
+			max-width: 100%;
+			max-height: 100%;
+		}
+               
